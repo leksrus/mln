@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='{titilium.variable}'>
+      <body className={`${titilium.className} antialiased`}>
         <Navbar />
         {children}
       </body>

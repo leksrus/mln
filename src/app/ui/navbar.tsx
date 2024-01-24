@@ -18,15 +18,16 @@ export default function Component() {
         //         <Navbar.Link href="/contacto">Contacto</Navbar.Link>
         //     </Navbar.Collapse>
         // </Navbar>
-        <nav className="w-full h-20 hidden bg-black lg:flex p-6 justify-between fixed z-10">
+        <nav className="w-full h-20 hidden bg-black opacity-85 lg:flex p-6 justify-between fixed z-10">
             <div className="h-auto w-auto">
                 <img src="/mnl-logo.png" className="mr-3" alt="MNL Logo" />
             </div>
             <div className="flex space-x-8 text-white">
                 <a href="#home" className="font-bold text-lg text-principal">Inicio</a>
                 <a href="#recomendados" className="font-bold text-lg text-principal">Cursos</a>
-                <a href="#destacados" className="font-bold text-lg text-principal">Garantía</a>
-                <a href="#faqs" className="font-bold text-lg text-principal">Testimoniales</a>
+                <a href="#garantia" className="font-bold text-lg text-principal">Garantía</a>
+                <a href="#testimonial" className="font-bold text-lg text-principal">Testimoniales</a>
+                <a href="#faqs" className="font-bold text-lg text-principal">Preguntas frecuentes</a>
                 <a href="#nosotros" className="font-bold text-lg text-principal">Sobre nosotros</a>
             </div>
             <div className="flex"></div>

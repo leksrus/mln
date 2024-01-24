@@ -8,10 +8,10 @@ import Footer from './ui/footer';
 
 export default function Home() {
   return (
-    <main>
+    <main className='bg-gradient-to-y from-red-500'>
       <section className="w-full h-screen">
-        <div id="home" className="w-full h-3/4 opacity-75 bg-black">
-          <div className="w-full h-full">
+        <div id="home" className="w-full h-3/4">
+          <div className="w-full h-full opacity-75 bg-black">
             <div
               className="w-full h-full flex flex-col absolute space-y-96 py-4 items-center lg:space-y-0 lg:items-start lg:pt-48 lg:justify-start">
               <div className="hidden h-auto lg:w-3/5 lg:flex pb-6 text-black text-center mx-auto">
@@ -30,7 +30,7 @@ export default function Home() {
           </div>
         </div>
         <div id="cursos" className="p-6">
-          <p className="text-3xl font-semibold text-principal">Cursos</p>
+          <p className="text-3xl font-semibold text-principal">Nuestro curso</p>
           <div
             className="w-auto h-96 mt-6 items-center overflow-x-auto overscroll-x-contain flex space-x-6 overflow-y-hidden lg:justify-center">
             <div className="Card">
@@ -56,7 +56,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="p-6 bg-gray-500 text-center mx-auto" id="garantia">
+        <div className="p-6 bg-gray-200 text-center mx-auto" id="garantia">
           <p className="text-3xl font-semibold mb-6">Doble garantía de satisfacción</p>
           <div className="w-2/5 mx-auto">
             <p className='text-2xl font-semibold'>¡Satisfacción garantizada o te devolvemos tu dinero!</p>
@@ -92,30 +92,23 @@ export default function Home() {
           </div>
         </div>
         <div className="p-6 bg-white" id="testimonios">
+        <p className="text-3xl font-semibold mb-6 text-principal text-center">Testimonios</p>
           <Testimonial />
         </div>
-        <div className="p-6" id="faqs">
-          <p className="text-3xl text-principal font-semibold mb-6">FAQs</p>
-          <div className="w-full h-full flex flex-col space-y-6 items-center justify-center">
-            <div>
-              <p className="text-xl font-medium text-principal">Política de cancelación</p>
-              <p className="text-sm"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi quam nobis lab
-              </p>
+        <div className="p-6 mb-10" id="faqs">
+          <p className="text-center text-3xl text-principal font-semibold mb-6">Preguntas frecuentes</p>
+          <div className="w-5/6 mx-auto h-full flex flex-row space-x-6 leading-loose ">
+            <div className='w-1/3 px-2'>
+              <p className="text-2xl font-medium text-principal mb-3">¿Cuánto tiempo dura el curso?</p>
+              <p className="text-lg"> El curso dura 1 año, son 192 horas. A esto se le agregan las grabaciones que se tiene con el alumno en la corrección de los trabajos prácticos.</p>
             </div>
-            <div>
-              <p className="text-xl font-medium text-principal">Política de cancelación</p>
-              <p className="text-sm"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi quam nobis lab
-              </p>
+            <div className='w-1/3 px-2'>
+              <p className="text-2xl font-medium text-principal mb-3">¿Me voy a hacer rico con el trading?</p>
+              <p className="text-lg"> Fundamentalmente va a depender de la capacidad para comprender los conceptos inherentes a la operativa en sí y del tamaño de la cuenta inicial. No es lo mismo comenzar con USD 100.000 que con USD 1.000. Con esto en mente, si tenemos una cuenta de USD 100.000 y con un rendimiento mensual del 2% (algo perfectamente realizable), en 10 años alcanzaríamos los USD 1.072.516,30.</p>
             </div>
-            <div>
-              <p className="text-xl font-medium text-principal">Política de cancelación</p>
-              <p className="text-sm"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi quam nobis lab
-              </p>
-            </div>
-            <div>
-              <p className="text-xl font-medium text-principal">Política de cancelación</p>
-              <p className="text-sm"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi quam nobis lab
-              </p>
+            <div className='w-1/3 px-2'>
+              <p className="text-2xl font-medium text-principal mb-3">Después de unos meses me di cuenta de que no me interesa. ¿Me devuelven mi dinero?</p>
+              <p className="text-lg"> Las devoluciones de dinero sólamente se realizarán si crees que no cumplimos con nuestra doble garantía de satisfacción.</p>
             </div>
           </div>
         </div>

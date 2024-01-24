@@ -21,13 +21,13 @@ const config: Config = {
       },
       backgroundColor: ({ theme }) => ({
         ...theme('colors'),
-        'principal': '#CC2D4A',
-        'secondary': '#8FA206',
+        'principal': '#F97316',
+        'secondary': '#65A30D',
         'tertiary': '#61AEC9',
       }),
       textColor: {
-        'principal': '#CC2D4A',
-        'secondary': '#8FA206',
+        'principal': '#F97316',
+        'secondary': '#65A30D',
         'tertiary': '#61AEC9',
       },
       fontFamily: {
