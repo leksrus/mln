@@ -1,6 +1,5 @@
 'use client';
 
-import Slider from './ui/home/slider/slider';
 import Testimonial from './ui/home/testimonial/testimonial';
 import Features from './ui/home/features/features';
 import Footer from './ui/footer';
