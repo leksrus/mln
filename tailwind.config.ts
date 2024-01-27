@@ -10,14 +10,14 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'slide1': "url('/sliders/slide1.jpg')",
-        'slide2': "url('/sliders/slide2.jpg')",
-        'slide3': "url('/sliders/slide3.jpg')",
-        'slide4': "url('/sliders/slide4.jpg')",
-        'slide5': "url('/sliders/slide5.jpg')",
-        'slide6': "url('/sliders/slide6.jpg')",
-        'slide7': "url('/sliders/slide7.jpg')",
-        'slide8': "url('/sliders/slide8.jpg')",
+        'slide1': "url('../../public/sliders/slide1.jpg')",
+        'slide2': "url('../../public/sliders/slide2.jpg')",
+        'slide3': "url('../../public/sliders/slide3.jpg')",
+        'slide4': "url('../../public/sliders/slide4.jpg')",
+        'slide5': "url('../../public/sliders/slide5.jpg')",
+        'slide6': "url('../../public/sliders/slide6.jpg')",
+        'slide7': "url('../../public/sliders/slide7.jpg')",
+        'slide8': "url('../../public/sliders/slide8.jpg')",
       },
       backgroundColor: ({ theme }) => ({
         ...theme('colors'),
