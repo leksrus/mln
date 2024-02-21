@@ -20,7 +20,7 @@ export default function Component() {
         // </Navbar>
         <nav className="w-full h-20 hidden bg-black opacity-85 lg:flex p-6 justify-between fixed z-10">
             <div className="h-auto w-auto">
-                <img src="/../../mnl-logo.png" className="mr-3" alt="MNL Logo" />
+                <img src="./mnl-logo.png" className="mr-3" alt="MNL Logo" />
             </div>
             <div className="flex space-x-8 text-white">
                 <a href="#home" className="font-bold text-lg text-principal">Inicio</a>
