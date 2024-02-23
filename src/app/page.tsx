@@ -6,82 +6,108 @@ import Footer from './ui/footer';
 
 export default function Home() {
   return (
-    <main className='bg-gradient-to-y from-red-500'>
+    <main className=''>
       <section className="w-full h-screen">
-        <div id="home" className="w-full h-3/4">
-          <div className="w-full h-full opacity-75 bg-black">
-            <div
-              className="w-full h-full flex flex-col absolute space-y-96 py-4 items-center lg:space-y-0 lg:items-start lg:pt-48 lg:justify-start">
-              <div className="hidden h-auto lg:w-3/5 lg:flex pb-6 text-black text-center mx-auto">
-                <p className="text-5xl font-bold">Aprende a invertir en el mercado forex</p>
-              </div>
-              <div className='text-right pt-56'>
-                <p className="text-3xl ml-16 font-bold">¿Quieres saber más?</p>
-                <button
-                  className="bg-white text-principal text-lg font-semibold p-4 w-52 rounded-full shadow-sm transition-all duration-500 ease-in-out hover:bg-principal hover:text-white transform hover:translate-y-1 hover:scale-110 lg:ml-16">
-                  Agendá una llamada
-                </button>
-              </div>
-            </div>
-            <div className="w-full h-full lg:h-full bg-slide4 lg:bg-cover lg:bg-center">
+        <div id="home" className="w-full h-full">
+          <div className="bg-black bg-opacity-50 w-full h-full absolute py-48">
+            <div className="flex-col h-auto lg:w-4/5 lg:flex pb-6 text-white text-left mx-auto text-8xl font-semibold">
+              <p>Aprende a invertir</p>
+              <p className='text-left pl-96' > y </p>
+              <p className='py-5 text-9xl text-center font-bold'>vive del trading </p>
             </div>
           </div>
-        </div>
-        <div id="cursos" className="p-6">
-          <p className="text-3xl font-semibold text-principal">Nuestro curso</p>
-          <div
-            className="w-auto h-96 mt-6 items-center overflow-x-auto overscroll-x-contain flex space-x-6 overflow-y-hidden lg:justify-center">
-            <div className="Card">
-              <div className="w-full h-3/5 bg-slide1 bg-cover rounded-t-lg"></div>
-              <div className="bg-secondary h-2/5 w-full rounded-b-lg">
-                <p className="text-white font-bold text-xl px-4 py-2">Curso 1</p>
-                <p className="text-white text-sm px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </div>
-            </div>
-            <div className="Card">
-              <div className="w-full h-3/5 bg-slide3 bg-cover rounded-t-lg"></div>
-              <div className="bg-white h-2/5 w-full rounded-b-lg">
-                <p className="text-tertiary font-bold text-xl px-4 py-2">Curso 2</p>
-                <p className="text-tertiary text-sm px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </div>
-            </div>
-            <div className="Card">
-              <div className="w-full h-3/5 bg-slide4 bg-cover rounded-t-lg"></div>
-              <div className="bg-secondary h-2/5 w-full rounded-b-lg">
-                <p className="text-white font-bold text-xl px-4 py-2">Curso 3</p>
-                <p className="text-white text-sm px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </div>
-            </div>
+          <div className="lg:h-full bg-slide5 lg:bg-cover lg:bg-center lg:bg-fixed">
           </div>
         </div>
-        <div id="precios" className="py-6">
-          <div className="w-auto h-full mt-6 items-center overflow-x-auto overscroll-x-contain flex space-x-6 overflow-y-hidden lg:justify-center">
-            <div className='w-full flex flex-col space-y-4'>
-              <div className="group text-white rounded-r-full bg-gray-900 w-2/12 h-48 py-6 px-10 hover:w-4/12 transition-all ease-in-out duration-700">
-                <p className='text-3xl font-semibold'>Plan Lite</p>
-                <p className='transition delay-1000 duration-300 ease-in-out hidden group-hover:block pl-5'>Acceso a los indicadores MNL</p>
-                {/* <p className='transition-all ease-in-out duration-500 group-hover:delay-300 hidden group-hover:block pl-10'>Acceso a todas lecciones en video</p>
-                <p className='transition-all ease-in-out duration-500 group-hover:delay-700 hidden group-hover:block pl-20'>Membresía Gold por 30 días</p> agregar un botón de membresias explicando que son */}
-              </div>
-              <div className="text-white rounded-r-full bg-gray-600 w-3/12 h-48 py-6 px-14 hover:w-5/12 transition-all ease-in-out duration-500">
-                <p className='text-3xl font-semibold'>Plan Basic</p>
-                <p className='pl-5'>Acceso a los indicadores MNL</p>
-                <p className='pl-10'>Acceso a todas lecciones en video</p>
-                <p className='pl-20'>Membresía Gold por 60 días</p> {/*agregar un botón de membresias explicando que son*/}
-                <p className='pl-20'>Corrección de trabajos prácticos online</p> {/*agregar un botón de membresias explicando que son*/}
-              </div>
-              <div className="text-gray-700 rounded-r-full bg-gray-300 w-4/12 h-48 py-6 px-14 hover:w-6/12 transition-all ease-in-out duration-500">
-                <p className='text-3xl font-semibold'>Plan Premium</p>
-                <p className='pl-5'>Acceso a los indicadores MNL</p>
-                <p className='pl-10'>Acceso a todas lecciones en video</p>
-                <p className='pl-20'>Membresía Gold por 90 días</p> {/*agregar un botón de membresias explicando que son*/}
-                <p className='pl-20'>Corrección de trabajos prácticos online</p> {/*agregar un botón de membresias explicando que son*/}
-                <p className='pl-20'>Video de la corrección del trabajo práctico</p> {/*agregar un botón de membresias explicando que son*/}
-              </div>
-            </div>
+        <div id="cursos" className="p-36 text-center">
+          <div className='text-9xl text-black font-semibold'> Home Study </div>
+          <div className='flex flex-row space-x-10 mt-20'>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni accusantium necessitatibus ad, laudantium eveniet expedita vel blanditiis consequatur ipsam eligendi similique non? Eveniet veniam aliquid laudantium maxime dignissimos suscipit voluptatibus?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni accusantium necessitatibus ad, laudantium eveniet expedita vel blanditiis consequatur ipsam eligendi similique non? Eveniet veniam aliquid laudantium maxime dignissimos suscipit voluptatibus?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni accusantium necessitatibus ad, laudantium eveniet expedita vel blanditiis consequatur ipsam eligendi similique non? Eveniet veniam aliquid laudantium maxime dignissimos suscipit voluptatibus?</p>
           </div>
         </div>
 
+        <div id="pricing" className="bg-white ">
+          <p className="text-3xl font-semibold mb-6 text-principal text-center">Precios</p>
+          <div className="container px-6 py-8 mx-auto">
+            <div className="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
+              <div className="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 ">
+                <div className="flex-shrink-0">
+                  <h2 className="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-principal uppercase rounded-lg bg-gray-50 ">
+                    Home Studo Standard
+                  </h2>
+                </div>
+                <div className="flex-shrink-0">
+                  <span className="pt-2 text-3xl font-bold text-gray-800 uppercase ">
+                    USD 1,600.00
+                  </span>
+                </div>
+                <ul className="flex-1 space-y-4">
+                  <li className="text-gray-500 "> Acceso a los indicadores MNL</li>
+                  <li className="text-gray-500 "> Acceso a todas lecciones en video</li>
+                  <li className="text-gray-500 "> Membresía Gold por <span className='font-bold'>30</span> días</li>
+                  <li className="text-gray-500 line-through"> Corrección de trabajos prácticos online</li>
+                  <li className="text-gray-500 line-through"> Video de la corrección del trabajo práctico</li>
+                </ul>
+
+                <button className="inline-flex items-center justify-center px-4 py-2 font-medium text-white uppercase  bg-secondary rounded-lg hover:scale-110 focus:outline-none transition-all ease-in-out">
+                  Comprar
+                </button>
+              </div>
+
+              <div className="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4">
+                <div className="flex-shrink-0">
+                  <h2 className="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-principal uppercase rounded-lg bg-gray-50">
+                    Home Study Pro
+                  </h2>
+                </div>
+
+                <div className="flex-shrink-0">
+                  <span className="pt-2 text-3xl font-bold text-gray-800 uppercase ">
+                    USD 2,000.00
+                  </span>
+                </div>
+
+                <ul className="flex-1 space-y-4">
+                  <li className="text-gray-500 "> Acceso a los indicadores MNL</li>
+                  <li className="text-gray-500 "> Acceso a todas lecciones en video</li>
+                  <li className="text-gray-500 "> Membresía Gold por <span className='font-bold'>60</span> días</li>
+                  <li className="text-gray-500 "> Corrección de trabajos prácticos online</li>
+                  <li className="text-gray-500 line-through"> Video de la corrección del trabajo práctico</li>
+                </ul>
+
+                <button className="inline-flex items-center justify-center px-4 py-2 font-medium text-white uppercase  bg-secondary rounded-lg hover:scale-110 focus:outline-none transition-all ease-in-out">
+                  Comprar
+                </button>
+              </div>
+              <div className="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 ">
+                <div className="flex-shrink-0">
+                  <h2 className="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-principal uppercase rounded-lg ">
+                    Home Study Full
+                  </h2>
+                </div>
+
+                <div className="flex-shrink-0">
+                  <span className="pt-2 text-3xl font-bold text-gray-800 uppercase ">
+                    USD 2,500.00
+                  </span>
+                </div>
+
+                <ul className="flex-1 space-y-4">
+                  <li className="text-gray-500 "> Acceso a los indicadores MNL</li>
+                  <li className="text-gray-500 "> Acceso a todas lecciones en video</li>
+                  <li className="text-gray-500 "> Membresía Gold por <span className='font-bold'>90</span> días</li>
+                  <li className="text-gray-500 "> Corrección de trabajos prácticos online</li>
+                  <li className="text-gray-500 "> Video de la corrección del trabajo práctico</li>
+                </ul>
+                <button className="inline-flex items-center justify-center px-4 py-2 font-medium text-white uppercase  bg-secondary rounded-lg hover:scale-110 focus:outline-none transition-all ease-in-out">
+                  Comprar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="p-6 bg-gray-200 text-center mx-auto" id="garantia">
           <p className="text-3xl font-semibold mb-6">Doble garantía de satisfacción</p>
           <div className="w-2/5 mx-auto">
@@ -178,6 +204,6 @@ export default function Home() {
           </svg>
         </a>
       </div>
-    </main>
+    </main >
   )
 }
